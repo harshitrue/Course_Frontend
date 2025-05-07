@@ -123,6 +123,12 @@ function Home() {
                   Login
                 </Link>
                 <Link
+                  to={"/admin/login"}
+                  className="bg-transparent text-white text-xs md:text-lg md:py-2 md:px-4 p-2 border border-white rounded"
+                >
+                  Admin Login
+                </Link>
+                <Link
                   to={"/signup"}
                   className="bg-transparent text-white text-xs md:text-lg md:py-2 md:px-4 p-2 border border-white rounded"
                 >
